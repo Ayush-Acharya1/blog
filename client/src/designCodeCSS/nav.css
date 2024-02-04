@@ -1,0 +1,29 @@
+/* Styling for Navigation Bar */
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2f4f4f;
+  padding: 10px;
+  height: 70px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+}
+
+.profile {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.profile:hover {
+  background-color: #228b22;
+}

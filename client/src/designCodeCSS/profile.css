@@ -1,0 +1,16 @@
+.prof {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 650px;
+  margin-top: 100px;
+}
+
+.prof:hover {
+  background-color: #2980b9;
+}

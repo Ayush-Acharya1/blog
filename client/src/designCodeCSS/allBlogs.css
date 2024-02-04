@@ -1,0 +1,44 @@
+.allpage {
+  background-color: #008080;
+  box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+}
+
+.blog {
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+
+.blog a {
+  text-decoration: none; /* Remove the underline */
+  display: inline-block; /* Make the link a block element */
+  padding: 10px; /* Add padding for spacing */
+  background-color: #2f4f4f; /* Dark Slate Gray */
+  color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  width: 500px; /* Add transition effect for background color */
+}
+
+.blog a:hover {
+  background-color: #00796b; /* Darker Cyan Blue on hover */
+}
+
+.btn {
+  background-color: #800080;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #9400d3;
+}
